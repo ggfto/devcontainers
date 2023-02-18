@@ -16,5 +16,5 @@ Meus templates de uso diário com o vscode
 ## o que é isto?
 Estes são arquivos de template com elementos típicos necessários para desenvolver coisas, como extensões do vscode, software pré-instalado, etc...
 
-## como user isto?
+## como usar isto?
 Primeiramente, você precisa ter [Docker](https://www.docker.com) e [vscode](https://code.visualstudio.com) instalados. Você também precisará do pacote de extensões do vscode `ms-vscode-remote.vscode-remote-extensionpack` instalado. Então, crie uma pasta chamada `.devcontainer` na raiz do seu projeto e coloque o template desejado dentro dela. Após fazer isso, use a palheta de comandos `Ctrl+Shift+P` ou `Cmd+Shift+P` se você estiver em um Mac. Busque e selecione `Dev Containers: Rebuild and Reopen in Container`.
