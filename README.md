@@ -1,6 +1,6 @@
 # devcontainers
 
-### English
+### ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "United States") English
 My daily templates for use with vscode.
 
 ## what is it?
@@ -9,7 +9,7 @@ This are template files with the typical elements needed to develop things, like
 ## how to use it?
 Firstly, you need to have [Docker](https://www.docker.com) and [vscode](https://code.visualstudio.com) installed. You'll also need the vscode extension pack `ms-vscode-remote.vscode-remote-extensionpack` installed. Then, create a folder named `.devcontainer` in the project root folder and put the desired template inside. After doing this, use the command pallet `Ctrl+Shift+P` or `Cmd+Shift+P` if you're on a Mac. Search and select `Dev Containers: Rebuild and Reopen in Container`.
 
-### Portuguese
+### ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png "Brazil") Portuguese
 
 Meus templates de uso diário com o vscode
 
