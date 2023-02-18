@@ -1,0 +1,40 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/java
+{
+	"name": "PlatformIO",
+	"dockerFile": "Dockerfile",
+
+    //"features": {},
+
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // PIO Home is blank if its port isn't exposed from within the container.
+	"forwardPorts": [8008],
+
+    // Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "java -version",
+
+	// Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+                "ms-vscode.cpptools",
+                "platformio.platformio-ide"
+            ]
+        }
+    },
+
+	"runArgs": [
+		// --privileged grants access to /dev on host. Arduino will most likely be /dev/ttysN
+		"--privileged"
+	],
+
+	"mounts": [
+		// Mount the host's device to this container's.
+		"source=/dev,target=/dev,type=bind,consistency=consistent"
+	]
+}
