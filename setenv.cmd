@@ -1,0 +1,1 @@
+mklink /D .devcontainer %1\.devcontainer
